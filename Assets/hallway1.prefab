@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3307843670825263748}
   - component: {fileID: 9141000068937784957}
   m_Layer: 0
-  m_Name: cube
+  m_Name: hallway1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26,8 +26,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7415050535990569633}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.9716, y: -1.9716, z: -1.9716}
-  m_LocalScale: {x: 4.943251, y: 4.943251, z: 4.943251}
+  m_LocalPosition: {x: -1.9716, y: -1.9716, z: -4.8505}
+  m_LocalScale: {x: 4.943251, y: 4.943251, z: 10.700165}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0

@@ -305,6 +305,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1180316802}
   - component: {fileID: 1180316801}
+  - component: {fileID: 1180316803}
   m_Layer: 0
   m_Name: Generator
   m_TagString: Untagged
@@ -319,7 +320,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1180316800}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8b2adc24e688e8841887873ee6b3e08f, type: 3}
   m_Name: 
@@ -327,7 +328,7 @@ MonoBehaviour:
   size: {x: 30, y: 5, z: 30}
   roomCount: 100
   roomMaxSize: {x: 6, y: 2, z: 6}
-  cubePrefab: {fileID: 7415050535990569633, guid: 3fb4ddafbd160274ba8f07a1cf8cd5ee,
+  cubePrefab: {fileID: 1047221733189372814, guid: b479298f7b9c7494eae465bfcf265838,
     type: 3}
   redMaterial: {fileID: 2100000, guid: 71673d9873285904ab00282788add27f, type: 2}
   blueMaterial: {fileID: 2100000, guid: bd79999920190574a94044b2acad7316, type: 2}
@@ -346,6 +347,35 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1180316803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1180316800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c767c1f49cfb494d89fc3d51d6f3a78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  size: {x: 50, y: 50, z: 50}
+  randomSeed: 888
+  mainRoomPrefab: {fileID: -927199367670048503, guid: 5db83a20e204ec94db6138dc8b0fdc6a,
+    type: 3}
+  sideRoomPrefabs:
+  - {fileID: 7415050535990569633, guid: 3fb4ddafbd160274ba8f07a1cf8cd5ee, type: 3}
+  - {fileID: 7415050535990569633, guid: 3fb4ddafbd160274ba8f07a1cf8cd5ee, type: 3}
+  - {fileID: 7415050535990569633, guid: 3fb4ddafbd160274ba8f07a1cf8cd5ee, type: 3}
+  sideRoomSpawnChance: 0.724
+  sideRoomMaxInstances: 10
+  hallwayPrefabs:
+  - {fileID: 7415050535990569633, guid: ce2ef28b6266fc648b62a39e55f054ca, type: 3}
+  mainRoomMaterial: {fileID: 2100000, guid: 13cd47135277903479d4b55421faa42e, type: 2}
+  sideRoomMaterial: {fileID: 2100000, guid: 71673d9873285904ab00282788add27f, type: 2}
+  hallwayMaterial: {fileID: 2100000, guid: 7f0bf5ef298cb584180cc7aa2fd2304e, type: 2}
+  stairsMaterial: {fileID: 2100000, guid: 7f0bf5ef298cb584180cc7aa2fd2304e, type: 2}
+  cubePrefab: {fileID: 0}
 --- !u!1 &1515053883
 GameObject:
   m_ObjectHideFlags: 0
